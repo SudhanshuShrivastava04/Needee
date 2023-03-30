@@ -1,0 +1,116 @@
+body{
+    font-family: 'Poppins' , sans-serif;
+    background-color: #121212;
+    box-sizing: border-box;
+    width: 100% !important;
+}
+nav{
+    font-weight: bold;
+}
+.about-box{
+    position: relative;
+    margin-top: 6rem;
+    /* display: flex; */
+    flex-wrap: wrap;
+}
+#about-img{
+    width: 60%;
+    align-items: stretch;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    font-size: 2rem;
+    color: yellow;
+}
+span{
+    font-weight: bold;
+}
+h2{
+    color: yellow;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.content{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.text{
+    color: white;
+    font-size: 0.9rem;
+}
+.box{
+    width: 65%;
+}
+.end{
+   background-color: black;
+   /* height: 35vh; */
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+.footlinks{
+    text-decoration: none;
+    color: rgb(170, 170, 170);
+
+
+}
+ul{
+    text-align: left;
+    list-style: none;
+}
+.footlinks:hover{
+    color: yellow;
+    font-weight: bold;
+}
+p{
+    color: rgb(170, 170, 170);
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.social-media{
+    text-decoration: none;
+    color: gainsboro;
+    width: 2rem;
+    opacity: 0.7;
+}
+.social-media:hover{
+    color: white;
+    opacity: 1;
+}
+#copyright{
+    font-size: 1rem;
+    color: white;
+    /* display: inline-block; */
+    text-align: left;
+    padding: 0;
+    /* margin-top: 2rem; */
+  }
+  #copyright-id:hover{
+    color: yellow;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  #copyright-id{
+    color: white;
+    text-decoration: none;
+  }
+  #rights{
+    font-size: .6rem;
+    color: gainsboro;
+  }
