@@ -309,7 +309,7 @@ h2{
   }
   
   .card__background{
-    background-size: cover;
+    background-size: var(--spacing-xxl);
     background-position: center;
     border-radius: var(--spacing-l);
     bottom: 0;
@@ -332,6 +332,10 @@ h2{
   .card-grid:hover > .card-service:not(:hover) .card__background{
     filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px);
   }
+
+  .card-grid:hover > .card-service:not(:hover) .card__heading{
+    filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px);
+  }
   
   .card__content{
     left: 0;
@@ -348,7 +352,7 @@ h2{
   }
   
   .card__heading{
-    color: var(--text-lighter);
+    color: white;
     font-size: 1.9rem;
     text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
     line-height: 1.4;
